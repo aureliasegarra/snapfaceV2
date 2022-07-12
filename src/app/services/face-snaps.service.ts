@@ -8,55 +8,29 @@ export class FaceSnapsService {
   faceSnaps: FaceSnap[] = [
     {
       id: 1,
-      title: 'Archibald',
-      description: 'Mon meilleur ami depuis tout petit !',
-      imageUrl: 'https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg',
-      createdDate: new Date(),
-      snaps: 47,
+      title:'Archibald',
+      description: 'Mon meilleur ami depuis tout petit',
+      imageUrl: 'https://images.unsplash.com/photo-1588090644556-14707d0e886a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGVkZHklMjBiZWFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60',
+      createdDate : new Date(),
+      snaps: 0,
       location: 'Paris'
     },
     {
       id: 2,
-      title: 'Three Rock Mountain',
-      description: 'Un endroit magnifique pour les randonnées.',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Three_Rock_Mountain_Southern_Tor.jpg/2880px-Three_Rock_Mountain_Southern_Tor.jpg',
+      title: 'Luigi',
+      description: 'Une super peluche pour les amoureux de jeux video',
+      imageUrl: 'https://images.unsplash.com/photo-1599409636295-e3cf3538f212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bHVpZ2l8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
       createdDate: new Date(),
-      snaps: 6,
-      location: 'la montagne'
+      snaps: 0,
+      location: 'La montagne'
     },
     {
       id: 3,
-      title: 'Un bon repas',
-      description: 'Mmmh que c\'est bon !',
-      imageUrl: 'https://wtop.com/wp-content/uploads/2020/06/HEALTHYFRESH.jpg',
-      createdDate: new Date(),
-      snaps: 156
-    },
-    {
-      id: 4,
-      title: 'Archibald',
-      description: 'Mon meilleur ami depuis tout petit !',
-      imageUrl: 'https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg',
-      createdDate: new Date(),
-      snaps: 89,
-      location: 'Paris'
-    },
-    {
-      id: 5,
-      title: 'Three Rock Mountain',
-      description: 'Un endroit magnifique pour les randonnées.',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Three_Rock_Mountain_Southern_Tor.jpg/2880px-Three_Rock_Mountain_Southern_Tor.jpg',
-      createdDate: new Date(),
-      snaps: 27,
-      location: 'la montagne'
-    },
-    {
-      id: 6,
-      title: 'Un bon repas',
-      description: 'Mmmh que c\'est bon !',
-      imageUrl: 'https://wtop.com/wp-content/uploads/2020/06/HEALTHYFRESH.jpg',
-      createdDate: new Date(),
-      snaps: 101
+      title: 'Tintin',
+      description:'Pour les petits aventuriers',
+      imageUrl: 'https://images.unsplash.com/photo-1565993545587-f0a82a0d09b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGludGlufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60',
+      createdDate:new Date(),
+      snaps: 0,
     }
   ];
 
